@@ -1,0 +1,57 @@
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 3px;
+}
+
+.todoCard {
+    display: grid;
+    grid-template-rows: 35px 20vh 1fr;
+    row-gap: 8px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    max-width: 30vw;
+}
+
+.title_status {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 14px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    overflow-x: scroll;
+}
+
+.title_status::-webkit-scrollbar {
+    height: 5px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.status {
+    display: inline-block;
+    position: sticky;
+    right: 0;
+    background: #fff;
+    padding-left: 12px;
+}
+
+.description {
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.description::-webkit-scrollbar {
+    width: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 14px;
+}
