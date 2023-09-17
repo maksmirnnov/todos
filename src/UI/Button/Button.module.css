@@ -1,0 +1,23 @@
+.btn {
+    min-width: max-content;
+    width: 7vw;
+    border: 1px solid #ccc;
+    height: 30px;
+    background: #fff;
+    padding: 0 10px;
+    border-radius: 6px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn[severity=ERROR]:hover {
+    background: #e64a19;
+}
+
+.btn[severity=DONE]:hover {
+    background: #4caf50;
+}

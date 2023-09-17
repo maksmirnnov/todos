@@ -2,7 +2,7 @@
     background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-    background: #ddd;
+    background: #ccc;
     border-radius: 3px;
 }
 
@@ -11,9 +11,9 @@
     grid-template-rows: 35px 20vh 1fr;
     row-gap: 8px;
     border-radius: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     padding: 12px;
-    max-width: 30vw;
+    width: 100%;
 }
 
 .title_status {
@@ -21,7 +21,7 @@
     grid-template-columns: max-content max-content;
     column-gap: 14px;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
     overflow-x: scroll;
 }
 
@@ -30,6 +30,7 @@
 }
 
 .title {
+    font-weight: 500;
     display: inline-block;
 }
 
